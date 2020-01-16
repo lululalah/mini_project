@@ -1,27 +1,30 @@
-#menu{
-list-style:none;
-text-align:center;
-border-top: 1px solid black; border-bottom:1px solid black; padding:10px 0;
-}
-#menu li{
-display: inline; //한줄로정렬
-padding:0 10px;
+#menu {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 0;
 }
 
-#sp li{
-list-style:none;
-display: block;
+.MenuOpt {
+	display: inline; /* 한줄로 정렬 */
+	padding: 0 10px;
 }
 
 .subMenu {
 	position: absolute;
 	background-color: white;
-} 
-.subMenu tr td{
-	border: 1px solid;
+	border-collapse: collapse;
 }
 
-.img{
+.subMenu td {
+	border: 1px solid;
+}
+a { color: #666; text-decoration: none; }
+a:hover, a:focus { text-decoration: none; color: #00adfb; }
+/* a.skip:active, a.skip:focus, a.skip:hover { top: 0; left: 0; overflow: visible; width: auto; height: auto; } */
+
+.img {
 	width: 20%;
-	height:20%;
+	height: 20%;
 }
