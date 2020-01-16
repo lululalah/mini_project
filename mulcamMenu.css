@@ -1,0 +1,27 @@
+#menu{
+list-style:none;
+text-align:center;
+border-top: 1px solid black; border-bottom:1px solid black; padding:10px 0;
+}
+#menu li{
+display: inline; //한줄로정렬
+padding:0 10px;
+}
+
+#sp li{
+list-style:none;
+display: block;
+}
+
+.subMenu {
+	position: absolute;
+	background-color: white;
+} 
+.subMenu tr td{
+	border: 1px solid;
+}
+
+.img{
+	width: 20%;
+	height:20%;
+}
